@@ -11,6 +11,7 @@ import {
 } from "@nextui-org/react";
 import NavigationBar from "@/flat/NavigationBar";
 import WhatWeDo from "@/flat/WhatWeDo";
+import OurServices from "@/flat/OurServices";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -95,6 +96,7 @@ export default function Home() {
         </Container>
       </Container>
       <WhatWeDo />
+      <OurServices/>
     </Container>
   );
 }

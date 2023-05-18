@@ -1,6 +1,4 @@
-// import Image from "next/image";
 import { Container, Text, Image } from "@nextui-org/react";
-import vector from "../../../public/vector.svg";
 
 function WhatWeDo() {
   return (
