@@ -69,14 +69,16 @@ export default function Home() {
             position: "relative",
           }}
         >
-          <Image
+          <img
             alt=""
             src="/agency-image.png"
-            width={"100%"}
-            height={500}
-            css={{
+            style={{
+              width: "100%",
+              height: 500,
               position: "absolute",
               right: "0",
+              objectFit: "contain",
+              backgroundColor: "transparent",
               // bottom: "0",
             }}
           />
