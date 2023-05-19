@@ -24,7 +24,12 @@ export default function Home() {
       }}
     >
       <Container
-        css={{ display: "flex", flexFlow: "column", minHeight: "100vh", padding: 0 }}
+        css={{
+          display: "flex",
+          flexFlow: "column",
+          minHeight: "100vh",
+          padding: 0,
+        }}
       >
         <NavigationBar />
         <Container
@@ -35,7 +40,7 @@ export default function Home() {
             display: "flex",
             justifyContent: "center",
             marginTop: "4rem",
-            padding: 0
+            padding: 0,
           }}
         >
           <Container
@@ -96,7 +101,18 @@ export default function Home() {
         </Container>
       </Container>
       <WhatWeDo />
-      <OurServices/>
+      <Container
+        css={{
+          display: "flex",
+          justifyContent: "center",
+          my: "4rem",
+        }}
+      >
+        <Text h2 size="$6xl">
+          Our Services
+        </Text>
+      </Container>
+      <OurServices />
     </Container>
   );
 }
