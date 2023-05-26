@@ -8,7 +8,15 @@ export default function NavigationBar() {
       <Navbar.Brand>
         {/* <AcmeLogo /> */}
         <Text b color="inherit" hideIn="xs">
-          SENEC
+          <Link
+            href="/"
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+            }}
+          >
+            SENEC
+          </Link>
         </Text>
       </Navbar.Brand>
       <Navbar.Content hideIn="xs">
@@ -17,7 +25,7 @@ export default function NavigationBar() {
           Customers
         </Navbar.Link> */}
         {/* <Navbar.Link href="#">Pricing</Navbar.Link> */}
-        <Navbar.Link href="#">Company</Navbar.Link>
+        <Navbar.Link href="/company">Company</Navbar.Link>
       </Navbar.Content>
       <Navbar.Content>
         {/* <Navbar.Link color="inherit" href="#">
