@@ -21,6 +21,7 @@ export default function Home() {
         padding: 0,
         display: "flex",
         flexFlow: "column",
+        maxWidth: '1400px'
       }}
     >
       <Container
