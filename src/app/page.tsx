@@ -1,27 +1,23 @@
 "use client";
 // import Image from "next/image";
-import {
-  Container,
-  Grid,
-  Card,
-  Row,
-  Col,
-  Text,
-  Image,
-} from "@nextui-org/react";
+import { Container, Text, Image } from "@nextui-org/react";
 import NavigationBar from "@/flat/NavigationBar";
 import WhatWeDo from "@/flat/WhatWeDo";
 import OurServices from "@/flat/OurServices";
+import useMediaQuery from "@/hooks/useMediaQuery";
 import styles from "./page.module.css";
 
 export default function Home() {
+  const isMobile = useMediaQuery("(max-width: 480px)");
+  const isTablet = useMediaQuery("(max-width: 960px)");
+
   return (
     <Container
       css={{
         padding: 0,
         display: "flex",
         flexFlow: "column",
-        maxWidth: '1400px'
+        maxWidth: "1400px",
       }}
     >
       <Container
@@ -39,9 +35,13 @@ export default function Home() {
             width: "100%",
             height: "100%",
             display: "flex",
+            flexFlow: "column",
             justifyContent: "center",
             marginTop: "4rem",
             padding: 0,
+            "@sm": {
+              flexFlow: "row",
+            },
           }}
         >
           <Container
@@ -49,9 +49,12 @@ export default function Home() {
             css={{
               display: "flex",
               flexFlow: "column",
-              width: "40%",
+              width: "100%",
               height: "100%",
               margin: 0,
+              "@sm": {
+                width: "40%",
+              },
             }}
           >
             <Text
@@ -79,10 +82,13 @@ export default function Home() {
             css={{
               display: "flex",
               flexFlow: "column",
-              width: "60%",
+              width: "100%",
               height: "100%",
               margin: 0,
               position: "relative",
+              "@sm": {
+                width: "60%",
+              },
             }}
           >
             <img
@@ -91,10 +97,10 @@ export default function Home() {
               style={{
                 width: "100%",
                 maxHeight: 600,
-                position: "absolute",
+                position: isTablet ? "relative" : "absolute",
                 objectFit: "contain",
                 backgroundColor: "transparent",
-                marginTop: -50,
+                marginTop: isTablet ? 0 : -50,
                 // bottom: "0",
               }}
             />

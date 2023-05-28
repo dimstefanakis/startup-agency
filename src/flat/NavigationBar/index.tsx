@@ -7,7 +7,7 @@ export default function NavigationBar() {
     <Navbar isBordered variant="floating">
       <Navbar.Brand>
         {/* <AcmeLogo /> */}
-        <Text b color="inherit" hideIn="xs">
+        <Text b color="inherit">
           <Link
             href="/"
             style={{
