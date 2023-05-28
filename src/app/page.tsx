@@ -58,9 +58,12 @@ export default function Home() {
             }}
           >
             <Text
-              size="$7xl"
+              size="$5xl"
               css={{
                 lineHeight: "1",
+                '@sm': {
+                  size: '$7xl'
+                }
               }}
               h1
             >
