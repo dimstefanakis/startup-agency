@@ -20,7 +20,7 @@ export default function NavigationBar() {
         </Text>
       </Navbar.Brand>
       <Navbar.Content hideIn="xs">
-        <Navbar.Link href="#">Features</Navbar.Link>
+        {/* <Navbar.Link href="#">Features</Navbar.Link> */}
         {/* <Navbar.Link isActive href="#">
           Customers
         </Navbar.Link> */}
