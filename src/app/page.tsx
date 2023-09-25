@@ -67,7 +67,7 @@ export default function Home() {
               }}
               h1
             >
-              Premium Startup Development Agency
+              Premium Startup Development Studio
             </Text>
             <Text
               size="$lg"

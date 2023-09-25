@@ -8,7 +8,7 @@ function WhatWeDo() {
   const text = (
     <>
       Welcome to Senec, where we build the future one startup at a time. As a
-      premium development agency, we specialize in turning funded ideas into
+      premium development studio, we specialize in turning funded ideas into
       thriving businesses.
       <br />
       <br />

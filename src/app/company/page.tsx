@@ -30,7 +30,7 @@ export default function Company() {
         <Text css={{
           marginTop: '1rem'
         }}>
-          Senec is a premium startup development agency, specializing in MVP
+          Senec is a premium startup development studio, specializing in MVP
           development, post-MVP development, and scaling for early-stage
           startups. We&nbsp;re passionate about turning funded concepts into
           profitable ventures, and our team of seasoned developers and designers
