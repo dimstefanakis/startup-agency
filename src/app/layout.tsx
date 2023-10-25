@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import LayoutWrapper from "@/flat/LayoutWrapper";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <body className={inter.className}>
         <LayoutWrapper>{children}</LayoutWrapper>
+        <Analytics />
       </body>
     </html>
   );
