@@ -211,13 +211,13 @@ function Design() {
   const text = (
     <>
       Great design is at the core of user experience and brand perception. At
-      Senec, we offer flexible design services to meet your startup &nbsp;s
+      Senec, we offer flexible design services to meet your startup &apos;s
       needs.
       <br />
       <br />
-      Whether it&nbsp;s collaborating with your existing design team to bring
+      Whether it&apos;s collaborating with your existing design team to bring
       their vision to life, or creating an entirely new design from scratch,
-      we&nbsp;re equipped for the task. Our design experts focus on creating
+      we&apos;re equipped for the task. Our design experts focus on creating
       intuitive, engaging, and visually stunning interfaces that resonate with
       your target audience and align with your brand identity.
     </>

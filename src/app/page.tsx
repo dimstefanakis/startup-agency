@@ -87,7 +87,7 @@ export default function Home() {
                 }
               }}
             >
-              Our team of seasoned startup developers and other fractional experts build products, websites, apps and more for those who can't afford to compromise on quality.
+              Our team of seasoned startup developers and other fractional experts build products, websites, apps and more for those who can&apos;t afford to compromise on quality.
             </Text>
           </Container>
           <Container

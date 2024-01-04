@@ -23,7 +23,7 @@ export default function Company() {
         }}>
           Named after the Stoic philosopher Seneca, we at Senec embody the
           essence of resilience, wisdom, and transformative thought. Just as
-          Seneca&nbsp;s teachings have stood the test of time, our solutions are
+          Seneca&apos;s teachings have stood the test of time, our solutions are
           built to endure and adapt to the dynamic landscapes of technology and
           business.
         </Text>
@@ -32,7 +32,7 @@ export default function Company() {
         }}>
           Senec is a startup development studio, specializing in MVP
           development, post-MVP development, and scaling for early-stage
-          startups. We&nbsp;re passionate about turning funded concepts into
+          startups. We&apos;re passionate about turning funded concepts into
           profitable ventures, and our team of seasoned developers and designers
           are experts at bringing your vision to life.
         </Text>
@@ -41,16 +41,16 @@ export default function Company() {
         }}>
           Our approach is unique. We leverage cutting-edge tools like ThriftMVP
           and Senec.ai, which give us an edge in delivering superior services.
-          But our true differentiator lies in our startup experience. We&nbsp;ve
-          been in the trenches, we&nbsp;ve built startups from the ground up,
-          and we&nbsp;ve seen what works and what doesn&nbsp;t. We bring this
+          But our true differentiator lies in our startup experience. We&apos;ve
+          been in the trenches, we&apos;ve built startups from the ground up,
+          and we&apos;ve seen what works and what doesn&apos;t. We bring this
           wealth of experience to every project we undertake.
         </Text>
         <Text css={{
           marginTop: '1rem'
         }}>
-          At Senec, we&nbsp;re not just your service provider—we&nbsp;re your
-          partner. We&nbsp;re committed to your growth, and we&nbsp;re here to
+          At Senec, we&apos;re not just your service provider—we&apos;re your
+          partner. We&apos;re committed to your growth, and we&apos;re here to
           provide the technical expertise and strategic guidance you need to
           succeed.
         </Text>
