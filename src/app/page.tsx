@@ -1,6 +1,6 @@
 "use client";
 // import Image from "next/image";
-import { Container, Text, Image } from "@nextui-org/react";
+import { Container, Text, Image, Divider } from "@nextui-org/react";
 import NavigationBar from "@/flat/NavigationBar";
 import WhatWeDo from "@/flat/WhatWeDo";
 import OurServices from "@/flat/OurServices";
@@ -53,31 +53,41 @@ export default function Home() {
               height: "100%",
               margin: 0,
               "@sm": {
-                width: "40%",
+                width: "50%",
               },
             }}
           >
             <Text
-              size="$5xl"
+              size="$7xl"
               css={{
+                maxWidth: "100%",
                 lineHeight: "1",
                 '@sm': {
-                  size: '$7xl'
+                  width: "100%",
+                  maxWidth: "500px",
+                  fontSize: '$7xl'
                 }
               }}
               h1
             >
-              Premium Startup Development Studio
+              We build and grow startups the right way
             </Text>
+            <Divider css={{
+              marginTop: '2rem',
+            }} />
             <Text
               size="$lg"
               h2
               css={{
+                maxWidth: "100%",
                 marginTop: "2rem",
-                color: "$gray800",
+                color: "$gray900",
+                '@sm': {
+                  maxWidth: "500px",
+                }
               }}
             >
-              Transforming Ideas into Successful Ventures
+              Our team of seasoned startup developers and other fractional experts build products, websites, apps and more for those who can't afford to compromise on quality.
             </Text>
           </Container>
           <Container
@@ -90,7 +100,7 @@ export default function Home() {
               margin: 0,
               position: "relative",
               "@sm": {
-                width: "60%",
+                width: "50%",
               },
             }}
           >
