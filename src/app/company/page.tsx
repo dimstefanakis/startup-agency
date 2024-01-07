@@ -39,10 +39,7 @@ export default function Company() {
         <Text css={{
           marginTop: '1rem'
         }}>
-          Our approach is unique. We leverage cutting-edge tools like ThriftMVP
-          and Senec.ai, which give us an edge in delivering superior services.
-          But our true differentiator lies in our startup experience. We&apos;ve
-          been in the trenches, we&apos;ve built startups from the ground up,
+          We&apos;ve been in the trenches, we&apos;ve built startups from the ground up,
           and we&apos;ve seen what works and what doesn&apos;t. We bring this
           wealth of experience to every project we undertake.
         </Text>
