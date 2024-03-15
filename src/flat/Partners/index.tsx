@@ -43,6 +43,12 @@ export default function Partners() {
           alt="partners"
         />
         <Image
+          src="/logos/plab.png"
+          width={isMobile ? 100 : 200}
+          height={isMobile ? 50 : 200}
+          alt="partners"
+        />
+        <Image
           src="/logos/d56e02b1-1a9f-4c8d-a4c8-c0486e3d3bdd-1688413661373.png"
           width={isMobile ? 100 : 200}
           height={isMobile ? 50 : 200}
