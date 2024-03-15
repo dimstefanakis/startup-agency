@@ -4,6 +4,7 @@ import { Container, Text, Image, Divider } from "@nextui-org/react";
 import NavigationBar from "@/flat/NavigationBar";
 import WhatWeDo from "@/flat/WhatWeDo";
 import OurServices from "@/flat/OurServices";
+import Partners from "@/flat/Partners";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import styles from "./page.module.css";
 
@@ -62,19 +63,21 @@ export default function Home() {
               css={{
                 maxWidth: "100%",
                 lineHeight: "1",
-                '@sm': {
+                "@sm": {
                   width: "100%",
                   maxWidth: "500px",
-                  fontSize: '$7xl'
-                }
+                  fontSize: "$7xl",
+                },
               }}
               h1
             >
               We build and grow startups the right way
             </Text>
-            <Divider css={{
-              marginTop: '2rem',
-            }} />
+            <Divider
+              css={{
+                marginTop: "2rem",
+              }}
+            />
             <Text
               size="$lg"
               h2
@@ -82,12 +85,14 @@ export default function Home() {
                 maxWidth: "100%",
                 marginTop: "2rem",
                 color: "$gray900",
-                '@sm': {
+                "@sm": {
                   maxWidth: "500px",
-                }
+                },
               }}
             >
-              Our team of seasoned startup developers and other fractional experts build products, websites, apps and more for those who can&apos;t afford to compromise on quality.
+              Our team of seasoned startup developers and other fractional
+              experts build products, websites, apps and more for those who
+              can&apos;t afford to compromise on quality.
             </Text>
           </Container>
           <Container
@@ -120,6 +125,7 @@ export default function Home() {
           </Container>
         </Container>
       </Container>
+      <Partners />
       <WhatWeDo />
       <Container
         css={{
