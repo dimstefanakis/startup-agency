@@ -37,7 +37,7 @@ export default function Partners() {
         }}
       >
         <Image
-          src="/logos/white.png"
+          src="/logos/ycomb.webp"
           width={isMobile ? 100 : 200}
           height={isMobile ? 50 : 200}
           alt="partners"
