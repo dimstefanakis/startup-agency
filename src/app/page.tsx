@@ -5,6 +5,7 @@ import NavigationBar from "@/flat/NavigationBar";
 import WhatWeDo from "@/flat/WhatWeDo";
 import OurServices from "@/flat/OurServices";
 import Partners from "@/flat/Partners";
+import Footer from "@/flat/Footer";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import styles from "./page.module.css";
 
@@ -139,6 +140,7 @@ export default function Home() {
         </Text>
       </Container>
       <OurServices />
+      <Footer />
     </Container>
   );
 }
