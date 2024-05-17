@@ -99,14 +99,18 @@ function Development() {
   const text = (
     <>
       Building robust, scalable solutions is our forte at Senec. Specializing in
-      Software as a Service (SaaS) and hybrid applications, our development
+      multi-vendor B2B / B2C marketplaces, our development
       services cater to startups looking for efficiency, flexibility, and reach.
       <br />
       <br />
-      We craft tailor-made solutions that support your unique business needs and
+      We build tailor-made solutions that support your unique business needs and
       growth trajectory. Our experienced developers utilize cutting-edge
       technologies and methodologies to deliver high-quality products that stand
       the test of time and scale.
+      <br />
+      <br />
+      We know the ins and outs of building a marketplace including customer payments,
+      vendor onboarding, vendor payouts and invoicing.
     </>
   );
 

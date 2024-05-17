@@ -72,7 +72,7 @@ export default function Home() {
               }}
               h1
             >
-              We build and grow startups the right way
+              We build and grow marketplace startups the right way
             </Text>
             <Divider
               css={{
@@ -92,7 +92,7 @@ export default function Home() {
               }}
             >
               Our team of seasoned startup developers and other fractional
-              experts build products, websites, apps and more for those who
+              experts build products, websites, apps and more for markeplaces who
               can&apos;t afford to compromise on quality.
             </Text>
           </Container>
