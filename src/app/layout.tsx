@@ -6,9 +6,9 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Senec - Startup Development Studio",
+  title: "Senec - Marketplace Development Studio",
   description:
-    "Specializing in MVP development, post-MVP development, and scaling for early-stage startups. We transform funded concepts into profitable ventures.",
+    "Specializing in marketplace development and scaling for early-stage startups. We transform marketplace ideas into profitable ventures.",
 };
 
 function RootLayout({ children }: { children: React.ReactNode }) {
