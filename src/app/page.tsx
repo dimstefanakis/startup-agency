@@ -92,8 +92,8 @@ export default function Home() {
               }}
             >
               Our team of seasoned startup developers and other fractional
-              experts build products, websites, apps and more for markeplaces who
-              can&apos;t afford to compromise on quality.
+              experts build products, websites, apps and more for marketplaces
+              who can&apos;t afford to compromise on quality.
             </Text>
           </Container>
           <Container
